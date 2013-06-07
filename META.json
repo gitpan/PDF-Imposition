@@ -22,7 +22,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "Try::Tiny" : "0"
          }
       },
       "configure" : {
@@ -50,5 +51,5 @@
          "url" : "https://gitorious.org/perl-pdf-imposition"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
