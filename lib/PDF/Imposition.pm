@@ -12,11 +12,11 @@ PDF::Imposition - Perl module to manage the PDF imposition
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 =head1 SYNOPSIS
@@ -91,6 +91,11 @@ See L<PDF::Imposition::Schema2down>
 =item 2x4x2
 
 See L<PDF::Imposition::Schema2x4x2>
+
+=item 2side
+
+See L<PDF::Imposition::Schema2side>
+
 
 =back
 
