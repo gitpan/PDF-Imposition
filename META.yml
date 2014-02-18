@@ -30,4 +30,4 @@ requires:
   perl: 5.010001
 resources:
   repository: https://gitorious.org/perl-pdf-imposition
-version: 0.04
+version: 0.05
