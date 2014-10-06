@@ -12,11 +12,11 @@ PDF::Imposition - Perl module to manage the PDF imposition
 
 =head1 VERSION
 
-Version 0.07
+Version 0.08
 
 =cut
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 
 =head1 SYNOPSIS
@@ -96,6 +96,9 @@ See L<PDF::Imposition::Schema2x4x2>
 
 See L<PDF::Imposition::Schema2side>
 
+=item 1x4x2cutfoldbind
+
+See L<PDF::Imposition::Schema1x4x2cutfoldbind>
 
 =back
 
@@ -137,7 +140,7 @@ E.g.
 =cut
 
 sub available_schemas {
-    return qw/2up 2down 2side 2x4x2/;
+    return qw/2up 2down 2side 2x4x2 1x4x2cutfoldbind/;
 }
 
 =head1 AUTHOR
@@ -183,9 +186,9 @@ L<http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/sof
 
 L<http://wiki.contextgarden.net/Imposition>
 
-The names of schemas are taken straight from the ConTeXt one, as
-described in the Book I<Layouts in context>, by Willi Egger, Hans
-Hagen and Taco Hoekwater, 2011.
+The names of schemas are taken straight from the ConTeXt ones (if
+existing), as described in the book I<Layouts in context>, by Willi
+Egger, Hans Hagen and Taco Hoekwater, 2011.
 
 =back
 
