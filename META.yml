@@ -30,4 +30,4 @@ requires:
   perl: '5.010001'
 resources:
   repository: https://github.com/melmothx/pdf-imposition-perl
-version: '0.09'
+version: '0.10'
